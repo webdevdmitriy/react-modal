@@ -14,7 +14,7 @@ const Modal = ({ open, setOpen, children }) => (
 )
 
 function App() {
-  const [open, setOpen] = React.useState(false)
+  const [open, setOpen] = React.useState(true)
   return (
     <div className="App">
       <button onClick={() => setOpen(true)} className="open-modal-btn">
